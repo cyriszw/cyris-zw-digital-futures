@@ -80,10 +80,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Cyris ZW builds AI-powered websites, apps, and business systems for modern Zimbabwean businesses." },
       { name: "author", content: "Cyris ZW" },
       { property: "og:title", content: "Cyris ZW — AI-Powered Digital Solutions" },
-      { property: "og:description", content: "Websites, apps, automation and design powered by AI." },
+      { property: "og:description", content: "Cyris ZW builds AI-powered websites, apps, and business systems for modern Zimbabwean businesses." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@CyrisZW" },
+      { name: "twitter:title", content: "Cyris ZW — AI-Powered Digital Solutions" },
+      { name: "twitter:description", content: "Cyris ZW builds AI-powered websites, apps, and business systems for modern Zimbabwean businesses." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/FqrYDUYOewZV51DXZfIs5nFNdbE2/social-images/social-1778497787979-IMG_5073.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/FqrYDUYOewZV51DXZfIs5nFNdbE2/social-images/social-1778497787979-IMG_5073.webp" },
     ],
     links: [
       {
